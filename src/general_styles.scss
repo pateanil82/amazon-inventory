@@ -1,0 +1,82 @@
+// Scrollbar
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: #f8f4fc;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #798bff;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+div::-webkit-scrollbar-thumb:hover {
+  background: #6575d8;
+}
+
+body::-webkit-scrollbar-thumb:active,
+div::-webkit-scrollbar-thumb:active {
+  background: #6575d8;
+}
+
+// Not Movable Images
+.not_draggable {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+// Inventory Timeline Table
+.rdt_TableCol {
+  div {
+    div {
+      white-space: normal !important;
+    }
+  }
+}
+
+.inventory_timeline_table {
+  max-width: 65.5vw !important;
+  .rdt_Table {
+    border-radius: none !important;
+  }
+}
+
+// User Details Dropdown
+.dropdown-inner {
+  background-color: #f5f6fa ;
+}
+.dropdown-inner:hover {
+  background-color: #ffffff ;
+}
+
+
+.ellipsis{
+  white-space: nowrap;
+  max-width : 8rem; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.customs_{
+  background: none !important;
+  color: black !important;
+  border: 1px solid #798bff !important;
+  padding: 5px !important;
+}
+.modal-header{
+  display: flex;
+  justify-content: space-between !important;
+}

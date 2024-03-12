@@ -1,0 +1,90 @@
+{
+  "marketPlaces": [
+    {
+      "id": 1,
+      "region": "na",
+      "countryName": "Brazil",
+      "countryCode": "BR",
+      "amazonMarketplace": "A2Q3Y263D00KWC",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.com.br/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": false
+    },
+    {
+      "id": 2,
+      "region": "na",
+      "countryName": "Canada",
+      "countryCode": "CA",
+      "amazonMarketplace": "A2EUQ1WTGCTBG2",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.ca/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "region": "na",
+      "countryName": "Mexico",
+      "countryCode": "MX",
+      "amazonMarketplace": "A1AM78C64UM0Y8",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.com.mx/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "region": "na",
+      "countryName": "US",
+      "countryCode": "US",
+      "amazonMarketplace": "ATVPDKIKX0DER",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.com/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "region": "eu",
+      "countryName": "United Kingdom",
+      "countryCode": "UK",
+      "amazonMarketplace": "A2VIGQ35RCS4UG",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.uk/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "region": "eu",
+      "countryName": "United Arab Emirates (U.A.E.)",
+      "countryCode": "AE",
+      "amazonMarketplace": "A2VIGQ35RCS4UG",
+      "applicationId": "amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d",
+      "appLink": "https://sellercentral.amazon.ae/apps/authorize/consent?application_id=amzn1.sp.solution.8f551ff8-5013-4811-82ff-6d3d5d5c974d&state=",
+      "isActive": false
+    }
+  ],
+
+  "products": [
+    {
+      "productName": "Pikatoyz Montessori Wooden Puzzles for 1-3 Year Olds - Peg Puzzles for Toddlers - Educational and Learning Toys - Wooden Toys for 1+ Year Olds - Travel-Friendly Baby Puzzles",
+      "brand": "PikatoyZ",
+      "asin": "B09C695PG4",
+      "productType": "PUZZLES",
+      "width": "9.84",
+      "weight": "0.18",
+      "length": "7.48",
+      "height": "0.28",
+      "widthUnit": "inches",
+      "weightUnit": "kilograms",
+      "lengthUnit": "inches",
+      "heightUnit": "inches",
+      "marketPlace": "ATVPDKIKX0DER",
+      "price": "10.99",
+      "currency": "USD",
+      "launchDate": "2022-07-08T10:35:23.000Z",
+      "material": "Wood",
+      "image": "https://m.media-amazon.com/images/I/51Gu+7oQ1wL.jpg",
+      "color": "Auxiliary Vehicules",
+      "matchedSku": ["B09C695PG4", "B09C248QWS4", "I09C462FJ6"],
+      "quantity" : 185
+    }
+  ]
+}

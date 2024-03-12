@@ -1,0 +1,63 @@
+.radios_ {
+    margin-top: 10px;
+}
+.radios_2 {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.radios_>input {
+    margin-right: 0.5rem;
+}
+
+
+// ================= Calculated Forecast Card Css =======================
+
+.forecast_checkbox_card {
+    margin: 10px;
+    font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+}
+
+.forecast_checkbox_card_header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+    background: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.forecast_checkbox_card_body {
+    display: flex;
+    justify-content: end;
+    font-weight: 700;
+}
+
+.disabled_card {
+    background-color: #f5f6fa !important;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+.card_checkbox:checked {
+    background-color: #6874fc !important;
+}
+
+.card_checkbox {
+    height: 0.9rem !important;
+    width: 0.9rem !important;
+    margin-bottom: 0.7rem;
+    margin-right: 0.1rem;
+}
+
+// ======================================================================
+
+.forecast_details_data{
+    color: #6874fc;
+}
+.forecast_details_data:hover{
+    color: #30347c;
+}

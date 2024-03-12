@@ -1,0 +1,28 @@
+.primary_color{
+    color: #6874fc;
+}
+.date_period_box{
+    color: #6874fc;
+    border: 1px solid #6874fc;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: small;
+    cursor: pointer;
+    z-index: 1;
+}
+.date_period_box:hover{
+    color: #4d56ba;
+    border: 1px solid #4d56ba;
+}
+
+@media (min-width:575px) {
+    .modal-dialog {
+        max-width: fit-content !important;
+        min-width: 520px;
+    }
+
+    .modal-content {
+        width: fit-content !important;
+        min-width: 100% !important;
+    }
+}
